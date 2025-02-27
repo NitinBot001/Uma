@@ -45,7 +45,26 @@ const getInstances = async (instanceArray: string[]): Promise<string[]> => Promi
     .map(i => i[1] as string)
 );
 
-    // const pi = await getInstances(piped_instances);
+fetch(piped_instances)
+  .then(r => r.text())
+  console.log(r)
+  .then(t => t.split('--- | --- | --- | --- | ---')[1])
+  console.log(t)
+  .then(t => t.split('\n'))
+  console.log(t)
+  .then(i => i.map(_ => _.split(' | ')[1]))
+  .then(async instances => {
+    instances.shift();
+    const piped_instances = instances
+      .filter(i => i !== 'https://pipedapi.kavin.rocks')
+      .concat([
+        'https://pol1.piapi.ggtyler.dev',
+        'https://nyc1.piapi.ggtyler.dev',
+        'https://cal1.piapi.ggtyler.dev',
+        'https://pipedapi.orangenet.cc'
+      ]);
+
+    const pi = await getInstances(piped_instances);
     const iv = await getInstances(invidious_instances);
     
     (await Promise.all(pi.map(hlsTest)))
@@ -93,4 +112,4 @@ const getInstances = async (instanceArray: string[]): Promise<string[]> => Promi
       'dynamic_instances.json',
       JSON.stringify(di, null, 4)
     );
-  );
+  });
