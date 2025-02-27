@@ -47,7 +47,13 @@ const getInstances = async (instanceArray: string[]): Promise<string[]> => Promi
 
 fetch(piped_instances)
   .then(r => r.text())
-  .then(t => t.split('--- | --- | --- | --- | ---')[1])
+  .then(t => {
+    const splitText = t.split('--- | --- | --- | --- | ---')[1];
+    if (!splitText) {
+      throw new Error('Split text is undefined');
+    }
+    return splitText;
+  })
   .then(t => t.split('\n'))
   .then(i => i.map(_ => _.split(' | ')[1]))
   .then(async instances => {
@@ -75,12 +81,15 @@ fetch(piped_instances)
             if (passed) {
               di.piped.push(i);
               di.invidious.push(u);
+            } else {
+              di.hls.push(i);
             }
-            else di.hls.push(i);
+          } else {
+            di.hls.push(i);
           }
-          else di.hls.push(i);
+        } else {
+          di.hls.push(i);
         }
-        else di.hls.push(i);
       });
 
     (await Promise.all(iv.map(loadTest)))
