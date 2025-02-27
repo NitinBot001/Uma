@@ -2,8 +2,8 @@
     "piped": [],
     "hls": [],
     "invidious": [
-        "https://id.420129.xyz"
+        "https://invidious.reallyaweso.me"
     ],
     "hyperpipe": "https://hyperpipeapi.onrender.com",
-    "status": 0
+    "status": -1
 }
