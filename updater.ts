@@ -47,11 +47,11 @@ const getInstances = async (instanceArray: string[]): Promise<string[]> => Promi
 
 fetch(piped_instances)
   .then(r => r.text())
-  console.log(r)
+  console.log(r);
   .then(t => t.split('--- | --- | --- | --- | ---')[1])
-  console.log(t)
+  console.log(t);
   .then(t => t.split('\n'))
-  console.log(t)
+  console.log(t);
   .then(i => i.map(_ => _.split(' | ')[1]))
   .then(async instances => {
     instances.shift();
