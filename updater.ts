@@ -50,10 +50,10 @@ fetch(piped_instances)
   .then(t => {
     console.log('Response text:', t);  // Log the response text
     const splitText = t.split('--- | --- | --- | --- | ---')[1];
-    if (!splitText) {
-      throw new Error('Split text is undefined');
+    if (splitText) {
+      return splitText;
     }
-    return splitText;
+    else throw new Error('Split text is undefined');
   })
   .then(t => t.split('\n'))
   .then(i => i.map(_ => _.split(' | ')[1]))
