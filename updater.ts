@@ -53,7 +53,8 @@ fetch(piped_instances)
     if (splitText) {
       return splitText;
     }
-    else throw new Error('Split text is undefined');
+    else {
+      throw new Error('Split text is undefined');}
   })
   .then(t => t.split('\n'))
   .then(i => i.map(_ => _.split(' | ')[1]))
