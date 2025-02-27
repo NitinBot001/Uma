@@ -2,8 +2,8 @@
     "piped": [],
     "hls": [],
     "invidious": [
-        "https://id.420129.xyz"
+        "https://iv.duti.dev"
     ],
     "hyperpipe": "https://hyperpipeapi.onrender.com",
-    "status": 0
+    "status": -1
 }
