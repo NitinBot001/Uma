@@ -93,4 +93,4 @@ const getInstances = async (instanceArray: string[]): Promise<string[]> => Promi
       'dynamic_instances.json',
       JSON.stringify(di, null, 4)
     );
-  });
+  );
