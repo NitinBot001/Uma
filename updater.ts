@@ -45,23 +45,7 @@ const getInstances = async (instanceArray: string[]): Promise<string[]> => Promi
     .map(i => i[1] as string)
 );
 
-fetch(piped_instances)
-  .then(r => r.text())
-  .then(t => t.split('--- | --- | --- | --- | ---')[1])
-  .then(t => t.split('\n'))
-  .then(i => i.map(_ => _.split(' | ')[1]))
-  .then(async instances => {
-    instances.shift();
-    const piped_instances = instances
-      .filter(i => i !== 'https://pipedapi.kavin.rocks')
-      .concat([
-        'https://pol1.piapi.ggtyler.dev',
-        'https://nyc1.piapi.ggtyler.dev',
-        'https://cal1.piapi.ggtyler.dev',
-        'https://pipedapi.orangenet.cc'
-      ]);
-
-    const pi = await getInstances(piped_instances);
+    // const pi = await getInstances(piped_instances);
     const iv = await getInstances(invidious_instances);
     
     (await Promise.all(pi.map(hlsTest)))
