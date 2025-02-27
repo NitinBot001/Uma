@@ -48,6 +48,7 @@ const getInstances = async (instanceArray: string[]): Promise<string[]> => Promi
 fetch(piped_instances)
   .then(r => r.text())
   .then(t => {
+    console.log('Response text:', t);  // Log the response text
     const splitText = t.split('--- | --- | --- | --- | ---')[1];
     if (!splitText) {
       throw new Error('Split text is undefined');
