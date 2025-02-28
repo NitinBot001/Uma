@@ -78,7 +78,7 @@ async function fetchPipedInstances(): Promise<string[]> {
 
 (async () => {
   const pipedInstances = await fetchPipedInstances();
-  const rankedPipedInstances = await getInstances(pipedInstances);
+  const rankedPipedInstances = await getInstances(invidiousInstances);
   const rankedInvidiousInstances = await getInstances(invidiousInstances);
 
   const hlsResults = await Promise.all(rankedPipedInstances.map(hlsTest));
