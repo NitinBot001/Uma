@@ -4,7 +4,7 @@ on:
   branches:
    - main
  schedule:
-   - cron: "*/10 * * * *" # start
+   - cron: "*/10 * * * *" # star
     
 permissions:
   contents: write
