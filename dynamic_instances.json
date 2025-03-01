@@ -15,7 +15,9 @@
     ],
     "hls": [],
     "invidious": [
-        "https://invidious.f5.si"
+        "https://iv.ggtyler.dev",
+        "https://invid-api.poketube.fun/bHj665PpYhUdPWuKPfZuQGoX",
+        "https://inner-api.poketube.fun"
     ],
     "hyperpipe": "https://hyperpipeapi.onrender.com",
     "status": 0
