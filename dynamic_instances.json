@@ -1,19 +1,21 @@
 {
     "piped": [
+        "https://invidious.f5.si",
         "https://lekker.gay",
-        "https://invidious.reallyaweso.me",
         "https://id.420129.xyz",
+        "https://inv.stealthy.club",
         "https://invidious.adminforge.de",
         "https://cal1.iv.ggtyler.dev",
-        "https://inv.stealthy.club",
-        "https://invidious.f5.si",
+        "https://nyc1.iv.ggtyler.dev",
+        "https://iv.ggtyler.dev",
         "https://pol1.iv.ggtyler.dev",
+        "https://invidious.reallyaweso.me",
         "https://invidious.darkness.services"
     ],
     "hls": [],
     "invidious": [
         "https://invidious.f5.si"
     ],
-    "hyperpipe": "https://hyperpipeapi.onrender.com",
+    "hyperpipe": "https://hpapi.ggtyler.dev",
     "status": 0
 }
