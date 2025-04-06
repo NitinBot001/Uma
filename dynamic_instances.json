@@ -3,19 +3,19 @@
         "https://cal1.iv.ggtyler.dev",
         "https://invidious.adminforge.de",
         "https://inv.stealthy.club",
+        "https://lekker.gay",
         "https://nyc1.iv.ggtyler.dev",
         "https://iv.ggtyler.dev",
-        "https://lekker.gay",
         "https://invidious.f5.si",
-        "https://invidious.reallyaweso.me",
         "https://invidious.darkness.services",
+        "https://invidious.reallyaweso.me",
         "https://invidious.nikkosphere.com",
         "https://invidious.schenkel.eti.br"
     ],
     "hls": [],
     "invidious": [
-        "https://cal1.iv.ggtyler.dev"
+        "https://inv.stealthy.club"
     ],
-    "hyperpipe": "https://hyperpipeapi.onrender.com",
-    "status": 0
+    "hyperpipe": "https://hyperpipe-api.lunar.icu",
+    "status": -1
 }
