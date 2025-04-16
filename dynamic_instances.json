@@ -3,18 +3,18 @@
         "https://invidious.darkness.services",
         "https://invidious.nikkosphere.com",
         "https://lekker.gay",
-        "https://inv.stealthy.club",
-        "https://cal1.iv.ggtyler.dev",
-        "https://nyc1.iv.ggtyler.dev",
+        "https://invidious.schenkel.eti.br",
         "https://invidious.adminforge.de",
+        "https://inv.stealthy.club",
+        "https://nyc1.iv.ggtyler.dev",
         "https://iv.ggtyler.dev",
         "https://invidious.reallyaweso.me",
         "https://pol1.iv.ggtyler.dev",
-        "https://invidious.schenkel.eti.br"
+        "https://cal1.iv.ggtyler.dev"
     ],
     "hls": [],
     "invidious": [
-        "https://invidious.adminforge.de"
+        "https://inv.stealthy.club"
     ],
     "hyperpipe": "https://hyperpipeapi.darkness.services",
     "status": -1
