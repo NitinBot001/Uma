@@ -2,20 +2,20 @@
     "piped": [
         "https://invidious.darkness.services",
         "https://invidious.nikkosphere.com",
-        "https://lekker.gay",
         "https://pol1.iv.ggtyler.dev",
         "https://iv.duti.dev",
         "https://invidious.schenkel.eti.br",
         "https://invidious.adminforge.de",
+        "https://lekker.gay",
+        "https://cal1.iv.ggtyler.dev",
         "https://invidious.reallyaweso.me",
         "https://nyc1.iv.ggtyler.dev",
-        "https://iv.ggtyler.dev",
-        "https://cal1.iv.ggtyler.dev"
+        "https://iv.ggtyler.dev"
     ],
     "hls": [],
     "invidious": [
         "https://iv.duti.dev"
     ],
-    "hyperpipe": "https://hyperpipeapi.onrender.com",
+    "hyperpipe": "https://musicapi.reallyaweso.me",
     "status": 0
 }
