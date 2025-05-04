@@ -1,17 +1,17 @@
 {
     "piped": [
         "https://invidious.adminforge.de",
-        "https://pol1.iv.ggtyler.dev",
-        "https://iv.duti.dev",
-        "https://invidious.schenkel.eti.br",
         "https://lekker.gay",
-        "https://id.420129.xyz",
-        "https://invidious.f5.si",
         "https://invidious.nikkosphere.com",
-        "https://invidious.reallyaweso.me",
+        "https://iv.duti.dev",
+        "https://invidious.f5.si",
         "https://cal1.iv.ggtyler.dev",
         "https://nyc1.iv.ggtyler.dev",
-        "https://iv.ggtyler.dev"
+        "https://iv.ggtyler.dev",
+        "https://pol1.iv.ggtyler.dev",
+        "https://id.420129.xyz",
+        "https://invidious.reallyaweso.me",
+        "https://invidious.schenkel.eti.br"
     ],
     "hls": [],
     "invidious": [
