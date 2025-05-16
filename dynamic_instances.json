@@ -1,21 +1,21 @@
 {
     "piped": [
-        "https://invidious.adminforge.de",
+        "https://id.420129.xyz",
         "https://invidious.nikkosphere.com",
-        "https://pol1.iv.ggtyler.dev",
-        "https://invidious.f5.si",
         "https://invidious.schenkel.eti.br",
-        "https://cal1.iv.ggtyler.dev",
         "https://invidious.reallyaweso.me",
+        "https://invidious.adminforge.de",
         "https://nyc1.iv.ggtyler.dev",
         "https://iv.ggtyler.dev",
-        "https://id.420129.xyz"
+        "https://pol1.iv.ggtyler.dev",
+        "https://cal1.iv.ggtyler.dev",
+        "https://invidious.f5.si"
     ],
     "hls": [],
     "invidious": [
         "https://cal1.iv.ggtyler.dev",
         "https://invidious.nikkosphere.com"
     ],
-    "hyperpipe": "https://hyperpipeapi.onrender.com",
+    "hyperpipe": "https://hyperpipeapi.drgns.space",
     "status": 0
 }
