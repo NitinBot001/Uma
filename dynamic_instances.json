@@ -11,10 +11,9 @@
     ],
     "hls": [],
     "invidious": [
-        "https://invidious.nikkosphere.com",
         "https://lekker.gay",
-        "https://cal1.iv.ggtyler.dev"
+        "https://invidious.nikkosphere.com"
     ],
-    "hyperpipe": "https://hyperpipeapi.drgns.space",
+    "hyperpipe": "https://hyperpipeapi.onrender.com",
     "status": 0
 }
