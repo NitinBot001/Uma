@@ -1,18 +1,19 @@
 {
     "piped": [
-        "https://invidious.adminforge.de",
         "https://invidious.reallyaweso.me",
+        "https://invidious.nikkosphere.com",
         "https://lekker.gay",
         "https://invidious.schenkel.eti.br",
-        "https://invidious.nikkosphere.com",
         "https://cal1.iv.ggtyler.dev",
-        "https://pol1.iv.ggtyler.dev"
+        "https://invidious.adminforge.de",
+        "https://pol1.iv.ggtyler.dev",
+        "https://iv.ggtyler.dev"
     ],
     "hls": [],
     "invidious": [
         "https://lekker.gay",
         "https://invidious.nikkosphere.com"
     ],
-    "hyperpipe": "https://hyperpipeapi.darkness.services",
+    "hyperpipe": "https://hyperpipeapi.onrender.com",
     "status": 0
 }
