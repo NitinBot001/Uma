@@ -1,13 +1,14 @@
 {
     "piped": [
-        "https://invidious.reallyaweso.me",
-        "https://iv.duti.dev",
-        "https://lekker.gay",
         "https://invidious.adminforge.de",
-        "https://cal1.iv.ggtyler.dev",
         "https://pol1.iv.ggtyler.dev",
+        "https://invidious.schenkel.eti.br",
+        "https://lekker.gay",
+        "https://iv.duti.dev",
+        "https://iv.ggtyler.dev",
         "https://nyc1.iv.ggtyler.dev",
-        "https://iv.ggtyler.dev"
+        "https://cal1.iv.ggtyler.dev",
+        "https://invidious.reallyaweso.me"
     ],
     "hls": [],
     "invidious": [
