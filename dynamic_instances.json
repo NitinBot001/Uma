@@ -1,20 +1,20 @@
 {
     "piped": [
         "https://invidious.nikkosphere.com",
-        "https://lekker.gay",
-        "https://invidious.schenkel.eti.br",
-        "https://invidious.adminforge.de",
         "https://cal1.iv.ggtyler.dev",
-        "https://iv.duti.dev",
-        "https://pol1.iv.ggtyler.dev",
+        "https://invidious.schenkel.eti.br",
+        "https://lekker.gay",
         "https://nyc1.iv.ggtyler.dev",
         "https://iv.ggtyler.dev",
+        "https://iv.duti.dev",
+        "https://invidious.adminforge.de",
+        "https://pol1.iv.ggtyler.dev",
         "https://invidious.reallyaweso.me"
     ],
     "hls": [],
     "invidious": [
         "https://invidious.adminforge.de"
     ],
-    "hyperpipe": "https://hpapi.ggtyler.dev",
+    "hyperpipe": "https://hyperpipe-api.lunar.icu",
     "status": -1
 }
