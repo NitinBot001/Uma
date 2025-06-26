@@ -3,9 +3,9 @@
         "https://nyc1.iv.ggtyler.dev",
         "https://cal1.iv.ggtyler.dev",
         "https://lekker.gay",
-        "https://iv.duti.dev",
         "https://pol1.iv.ggtyler.dev",
         "https://invidious.reallyaweso.me",
+        "https://iv.duti.dev",
         "https://iv.ggtyler.dev",
         "https://invidious.schenkel.eti.br",
         "https://invidious.nikkosphere.com",
@@ -15,6 +15,6 @@
     "invidious": [
         "https://invidious.nikkosphere.com"
     ],
-    "hyperpipe": "https://hyperpipeapi.onrender.com",
+    "hyperpipe": "https://hpapi.ggtyler.dev",
     "status": 0
 }
